@@ -120,7 +120,14 @@ def merge_all_skills(matched, missing, extra):
 
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+import spacy
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
+
 
 # --- Sidebar Uploads ---
 st.sidebar.header("📂 Upload Files")
