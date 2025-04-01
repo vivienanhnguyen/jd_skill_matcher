@@ -3,7 +3,6 @@ import streamlit as st
 st.set_page_config(page_title="AI JD Skill Matcher", layout="wide")
 st.title("💼 AI Job Description Skill Matcher")
 
-import pdfplumber
 import fitz  # PyMuPDF
 import spacy
 import pandas as pd
