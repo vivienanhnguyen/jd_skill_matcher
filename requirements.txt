@@ -1,4 +1,5 @@
 streamlit
+pdfplumber
 scikit-learn
 sentence-transformers
 pandas
