@@ -1,0 +1,83 @@
+,Role,Skill_Type,Category,Skill
+0,Product Manager,Technical,Product Strategy,Product Roadmapping
+1,Product Manager,Technical,Requirements,Requirements Gathering
+2,Product Manager,Technical,Tools,Jira / Trello / Asana
+3,Product Manager,Technical,UX Collaboration,"Wireframing (Figma, Balsamiq)"
+4,Product Manager,Technical,UX Design,User Journey Mapping
+5,Product Manager,Technical,Data Literacy,SQL (Basic Queries)
+6,Product Manager,Technical,Experimentation,A/B Testing
+7,Product Manager,Technical,Analytics Tools,Google Analytics / Mixpanel
+8,Product Manager,Technical,Technical Literacy,API Understanding
+9,Product Manager,Technical,Agile,Agile / Scrum Practices
+10,Product Manager,Technical,Soft Skills,Stakeholder Communication
+11,Product Manager,Technical,Metrics,"Product Metrics (DAU, MAU, Retention, Churn)"
+12,Software Developer,Technical,Languages,Python
+13,Software Developer,Technical,Languages,Java
+14,Software Developer,Technical,Languages,JavaScript
+15,Software Developer,Technical,Languages,TypeScript
+16,Software Developer,Technical,Frontend Frameworks,React
+17,Software Developer,Technical,Frontend Frameworks,Vue
+18,Software Developer,Technical,Frontend Frameworks,Angular
+19,Software Developer,Technical,Backend Frameworks,Node.js
+20,Software Developer,Technical,Backend Frameworks,Spring Boot
+21,Software Developer,Technical,Integration,REST APIs
+22,Software Developer,Technical,Integration,GraphQL APIs
+23,Software Developer,Technical,Databases,PostgreSQL
+24,Software Developer,Technical,Databases,MongoDB
+25,Software Developer,Technical,Version Control,Git / GitHub / GitLab
+26,Software Developer,Technical,DevOps,Docker
+27,Software Developer,Technical,DevOps,Kubernetes
+28,Software Developer,Technical,Cloud,AWS
+29,Software Developer,Technical,Cloud,Azure
+30,Software Developer,Technical,Cloud,GCP
+31,Software Developer,Technical,CI/CD,Jenkins
+32,Software Developer,Technical,CI/CD,GitHub Actions
+33,Software Developer,Technical,QA,Unit / Integration / E2E Testing
+34,Software Developer,Technical,Security,Secure Coding Practices
+35,Data Professional,Technical,Programming,Python
+36,Data Professional,Technical,Programming,R
+37,Data Professional,Technical,Libraries,Pandas
+38,Data Professional,Technical,Libraries,NumPy
+39,Data Professional,Technical,Databases,SQL
+40,Data Professional,Technical,Visualization,Tableau
+41,Data Professional,Technical,Visualization,Power BI
+42,Data Professional,Technical,ML Frameworks,scikit-learn
+43,Data Professional,Technical,ML Frameworks,TensorFlow
+44,Data Professional,Technical,Data Infra,BigQuery
+45,Data Professional,Technical,Data Infra,Snowflake
+46,Data Professional,Technical,Data Pipelines,Airflow
+47,Data Professional,Technical,Data Pipelines,dbt
+48,Data Professional,Technical,Analytical Thinking,Experiment Design
+49,UX/UI Designer,Technical,Design Tools,Figma
+50,UX/UI Designer,Technical,Design Tools,Sketch
+51,UX/UI Designer,Technical,Design Tools,Adobe XD
+52,UX/UI Designer,Technical,UX Skills,Wireframing & Prototyping
+53,UX/UI Designer,Technical,Research,Usability Testing
+54,UX/UI Designer,Technical,Standardization,Design Systems
+55,UX/UI Designer,Technical,Dev Collaboration,HTML / CSS (basic)
+56,UX/UI Designer,Technical,Compliance,Accessibility Standards
+57,Product Manager,Soft Skill,Communication,Stakeholder communication
+58,Product Manager,Soft Skill,Collaboration,Cross-functional teamwork
+59,Product Manager,Soft Skill,Leadership,Influence without authority
+60,Product Manager,Soft Skill,Decision Making,Prioritization and trade-off evaluation
+61,Product Manager,Soft Skill,Problem Solving,Root cause analysis
+62,Product Manager,Soft Skill,Adaptability,Navigating ambiguity and change
+63,Product Manager,Business Skill,Business Modeling,Understanding revenue models and pricing
+64,Product Manager,Business Skill,Market Understanding,Competitor and user research
+65,Product Manager,Business Skill,KPIs,"Tracking MAU, retention, churn, NPS"
+66,Product Manager,Business Skill,Storytelling,Communicating product vision and strategy
+67,Software Developer,Soft Skill,Collaboration,Working with product and design teams
+68,Software Developer,Soft Skill,Problem Solving,Debugging and root cause identification
+69,Software Developer,Soft Skill,Communication,Writing clear documentation and code comments
+70,Software Developer,Soft Skill,Adaptability,Learning new tools and frameworks quickly
+71,Data Professional,Soft Skill,Communication,Presenting data insights to non-technical teams
+72,Data Professional,Soft Skill,Critical Thinking,Interpreting trends and anomalies
+73,Data Professional,Soft Skill,Curiosity,Exploring hypotheses and data patterns
+74,UX/UI Designer,Soft Skill,Empathy,Understanding user needs and pain points
+75,UX/UI Designer,Soft Skill,Collaboration,Working closely with developers and PMs
+76,UX/UI Designer,Soft Skill,Adaptability,Iterating based on user feedback
+77,All Roles,Behavioral Skill,Learning Agility,Quickly adopting new tools and technologies
+78,All Roles,Behavioral Skill,Empathy,Considering perspectives of users and teammates
+79,All Roles,Behavioral Skill,Curiosity,Proactively exploring new trends and solutions
+80,All Roles,Behavioral Skill,Critical Thinking,Challenging assumptions constructively
+81,All Roles,Behavioral Skill,Time Management,Managing workload and meeting deadlines
