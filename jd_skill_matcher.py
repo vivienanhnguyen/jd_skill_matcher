@@ -4,6 +4,7 @@ st.set_page_config(page_title="AI JD Skill Matcher", layout="wide")
 st.title("💼 AI Job Description Skill Matcher")
 
 import pdfplumber
+import fitz  # PyMuPDF
 import spacy
 import pandas as pd
 
@@ -146,14 +147,9 @@ threshold = st.sidebar.slider(
 
 # --- Extract Text Function ---
 def extract_text(file):
-    if file is None:
-        return ""
     if file.name.endswith(".pdf"):
-        with pdfplumber.open(file) as pdf:
-            return "\n".join(page.extract_text() or "" for page in pdf.pages)
-    elif file.name.endswith(".txt"):
-        return file.read().decode("utf-8")
-    return ""
+        pdf = fitz.open(stream=file.read(), filetype="pdf")
+        return "\n".join([page.get_text() for page in pdf])
 
 resume_text = extract_text(uploaded_resume)
 jd_text = extract_text(uploaded_jd)
